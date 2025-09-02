@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- FONTES  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomolhari&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LINK PRO CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-image: url(imgs/bcg.png)">
+    <header>
+      <div class="container-header">
+          <div class="logo"><img src="imgs/logo.png" alt="logo restaurante" class="logo"/></div>
+          
+        <nav>
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+          <menu style="align-items: center">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </menu>
+        </nav>
+      </div>
+    </header>
+
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <p>Cucina Italiana</p>
+        <h1>La Tavola di Nonna</h1>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="container">
+        <h2 class="section-title">Bem-vindo ao La Tavola di Nonna</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Eu sou a Nonna Maria, e no La Tavola di Nonna, cada prato é feito
+              com o mesmo carinho que eu colocaria na minha própria casa. Desde
+              pequena, aprendi a arte da culinária italiana com minha mãe e
+              minha avó. Cada receita que preparo tem uma história, um segredo
+              transmitido de geração em geração. Aqui, você não encontra apenas
+              comida – encontra um pedaço da minha vida. Cada prato, desde a
+              nossa pizza crocante até a lasanha feita à mão, é preparado com
+              ingredientes frescos e muito amor. Para mim, não há maior prazer
+              do que ver as pessoas se reunindo ao redor da mesa, rindo e
+              saboreando uma refeição como se estivessem na casa da família.
+              Quando você entra no La Tavola di Nonna, não é apenas um cliente.
+              Você se torna parte da nossa história, parte da nossa família. Meu
+              restaurante é um lugar onde todos são bem-vindos, onde a comida é
+              feita com carinho e onde cada refeição se transforma em uma
+              lembrança especial. Sente-se, relaxe e aproveite a verdadeira
+              hospitalidade italiana. Aqui, a mesa está sempre cheia de amor e
+              sabor.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="imgs/image-sobre-nos.png" alt="Imagem do restaurante" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="container">
+        <h2 class="section-title">Nosso Menu</h2>
+
+        <div class="menu-category">
+          <details>
+            <summary>Entradas</summary>
+            <div class="menu-items">
+              <div class="menu-item">
+                <h3>Bruschetta al Pomodoro <span class="price">R$ 28</span></h3>
+                <p>
+                  Fatias de pão italiano tostadas, cobertas com tomate picado,
+                  manjericão fresco, alho, azeite de oliva e um toque de sal e
+                  pimenta.
+                </p>
+              </div>
+              <div class="menu-item">
+                <h3>Carpaccio di Manzo <span class="price">R$ 24</span></h3>
+                <p>
+                  Fatias finas de carne bovina crua temperadas com limão, azeite
+                  de oliva, alcaparras, rúcula e lascas de parmesão.
+                </p>
+              </div>
+              <div class="menu-item">
+                <h3>Caponata Siciliana <span class="price">R$ 32</span></h3>
+                <p>
+                  Um prato quente de berinjela, pimentão, cebola, azeitonas,
+                  alcaparras, tomate e pinhões cozidos no vinagre, um verdadeiro
+                  clássico siciliano.
+                </p>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <div class="menu-category">
+          <details>
+            <summary>Pratos Principais</summary>
+            <div class="menu-items">
+              <div class="menu-item">
+                <h3>
+                  Lasagna alla Bolognese
+                  <span class="price">R$ 58</span>
+                </h3>
+                <p>
+                  Camadas de massa fresca, molho à bolonhesa (carne moída,
+                  tomate e vinho), molho branco cremoso e queijo parmesão,
+                  assadas até ficarem douradas./p>
+                </p>
+              </div>
+
+              <div class="menu-item">
+                <h3>
+                  Risotto ai Funghi Porcini <span class="price">R$ 72</span>
+                </h3>
+                <p>
+                  Risoto cremoso preparado com arroz arbório, cogumelos porcini
+                  secos, caldo de legumes, vinho branco e finalizado com queijo
+                  parmesão.
+                </p>
+              </div>
+              <div class="menu-item">
+                <h3>
+                  Saltimbocca alla Romana <span class="price">R$ 65</span>
+                </h3>
+                <p>
+                  Fatias finas de vitela, cobertas com presunto de Parma e
+                  folhas de sálvia, douradas na manteiga e finalizadas com um
+                  toque de vinho branco.
+                </p>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <div class="menu-category">
+          <details>
+            <summary>Sobremesas</summary>
+            <div class="menu-items">
+              <div class="menu-item">
+                <h3>
+                  Tiramisu
+                  <span class="price">R$ 22</span>
+                </h3>
+                <p>
+                  Camadas de biscoitos champagne embebidos em café, intercaladas
+                  com uma mistura cremosa de mascarpone e finalizadas com cacau
+                  em pó.
+                </p>
+              </div>
+              <div class="menu-item">
+                <h3>
+                  Panna Cotta
+                  <span class="price">R$ 24</span>
+                </h3>
+                <p>
+                  Uma sobremesa cremosa de creme de leite, baunilha e açúcar,
+                  servida com calda de frutas vermelhas frescas.
+                </p>
+              </div>
+              <div class="menu-item">
+                <h3>Cannoli Siciliani <span class="price">R$ 26</span></h3>
+                <p>
+                  Massa frita crocante recheada com ricota doce, pistache e
+                  pedaços de chocolate.
+                </p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="localizacao" class="location">
+      <div class="container">
+        <h2 class="section-title">Onde Estamos</h2>
+        <p class="text-center">
+          Venha nos visitar em nosso charmoso endereço no coração da cidade.
+        </p>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.3952662774!2d-46.924796!3d-23.681434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4481839b175f%3A0x3dfec968d9dd6c9e!2sSão%20Paulo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1647289852929!5m2!1spt-BR!2sbr"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-content">
+          <div class="contact-text">
+            <p>
+              O La Tavola di Nonna nasceu do desejo de manter viva a tradição da
+              autêntica cozinha italiana, inspirada nas receitas de família
+              passadas de geração em geração. Fundado por Teresa Ricci em 1954,
+              o restaurante sempre prezou pelo sabor, pelo cuidado no preparo e
+              pelo acolhimento típico das mesas italianas.
+            </p>
+            <address>
+              <div class="contact-info">
+                <h3>Telefone & E-mail</h3>
+                <p>(11)4002-8922<br />latavoladinonna@contato.com.br</p>
+              </div>
+              <div class="contact-info">
+                <h3>Endereço</h3>
+                <p>
+                  Avenida dos Girassóis, 1580 • Jardim das Acácias <br />São
+                  Paulo - SP
+                </p>
+              </div>
+
+              <div class="contact-info">
+                <h3>Horário de Funcionamento</h3>
+                <p>
+                  Terça a Quinta: 18h às 23h<br />Sexta e Sábado: 18h às 00h<br />Domingo:
+                  12h às 18h<br />Segunda: Fechado
+                </p>
+              </div>
+            </address>
+          </div>
+
+          <div class="contact-image">
+            <img src="imgs/image 5.png" alt="Imagem de contato" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="logo">La Tavola di Nonna</div>
+
+          <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+          </div>
+
+          <p>
+            &copy; 2025 La Tavola di Nonna Restaurante. Todos os direitos
+            reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"/>
+  </body>
+</html>
